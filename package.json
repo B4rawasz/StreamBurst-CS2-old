@@ -1,0 +1,34 @@
+{
+	"name": "streamburst-cs2",
+	"productName": "CS2",
+	"version": "1.0.0",
+	"author": "StreamBurst",
+	"description": "Module for handling CS2 events",
+	"main": "./dist/index.js",
+	"type": "module",
+	"scripts": {
+		"build": "npx tsc & node builder.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/B4rawasz/StreamBurst-CS2.git"
+	},
+	"keywords": [
+		"StreamBurst",
+		"CS2"
+	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/B4rawasz/StreamBurst-CS2/issues"
+	},
+	"homepage": "https://github.com/B4rawasz/StreamBurst-CS2#readme",
+	"devDependencies": {
+		"@types/node": "^24.2.0",
+		"typescript": "^5.9.2"
+	},
+	"dependencies": {
+		"@electron/asar": "^4.0.1",
+		"csgo-gsi-types": "^1.0.7",
+		"http-terminator": "^3.2.0"
+	}
+}

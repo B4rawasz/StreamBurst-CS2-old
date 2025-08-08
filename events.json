@@ -1,0 +1,11 @@
+{
+	"echo": {
+		"description": "Echo event",
+		"params": {
+			"message": {
+				"type": "string",
+				"description": "Message to echo"
+			}
+		}
+	}
+}
